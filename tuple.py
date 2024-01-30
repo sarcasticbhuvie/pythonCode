@@ -1,0 +1,7 @@
+tuple = ("bhuvie","bhupendra","verma")
+print(tuple)
+print(tuple[0])
+tuple1=("name")
+print(type(tuple1))
+tuple1=("name",)
+print(type(tuple1))
