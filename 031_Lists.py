@@ -64,16 +64,28 @@
 # print(list)
 ##############################################
 # 
-list2=[10,20,30,40,50,60,70,80,90,100]
-def number(msg):
-    return int(input(msg))
-index1=number("Enter index 1 :")
-index2=number("Enter index 2 :")
-print(f"List Before swaping :{list2}")
-temp=list2[index1]
-list2.pop(index1)
-list2.insert(index1,list2[index2-1])
-list2.pop(index2)
-list2.insert(index2,temp)
-print(f"List after swaping :{list2}")
+# list2=[10,20,30,40,50,60,70,80,90,100]
+# def number(msg):
+#     return int(input(msg))
+# index1=number("Enter index 1 :")
+# index2=number("Enter index 2 :")
+# print(f"List Before swaping :{list2}")
+# Swapping using list methods()
+# temp=list2[index1]
+# list2.pop(index1)
+# list2.insert(index1,list2[index2-1])
+# list2.pop(index2)
+# list2.insert(index2,temp)
+# print(f"List after swaping :{list2}")
 
+# # ============================================
+# swapping without methods
+index_one=int(input("Enter first index :"))
+index_second=int(input("Enter second index :"))
+list=[10,20,30,40,50,60]
+print("List before swapping element",list)
+temp=list[index_one]
+list[index_one]=list[index_second]
+list[index_second]=temp
+print("List after swapping element",list)
+# # ==================================================

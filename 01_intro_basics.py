@@ -5,8 +5,10 @@
 # #to print ASCII value
 # print(ord('a')) 
 # # type(variable_name) : to find dataType
-# a=30
-# print(type(a))
+# print(sum([10,50]))
+# print(type(variable_name))
+# print("bhuvie",end="") :end="",used to print next text in sam line
+# reversed(tuples_name) :used to trivarse from end
 # #================================================
 # # Take input 2 number and print sum
 # num1=int(input("Enter number 1 :"))

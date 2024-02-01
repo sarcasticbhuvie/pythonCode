@@ -18,7 +18,8 @@ Python collection: use to store collection of items
             indexed :if size of list is n
                 indexing 0 to n-1
                 negativeIndexing  -1 to -n
-            ordered:
+                rangeIndexing is possible as tuple[startIndex:endingIndex] (negativeIndexing also possible)
+            ordered: place of every element is fixed so indexing is possibe
                 append(value): add value at end
                 insert(index,value): add value to given index
                 extend(): list1.extend(list2):list2 to added in list1
@@ -32,9 +33,43 @@ Python collection: use to store collection of items
             mixed of different datatypes
             List Comprehension :When we want to make a new list from existing list.
             Nested List:
-    2. Tuples
-    3. Set
-    4. Dictionary
+    2. Tuples (): Used to store multiple items in a variable.
+        Ordered:place of every element is fixed so indexing is possibe
+            indexed :if size of list is n
+                indexing 0 to n-1
+                negativeIndexing  -1 to -n
+                rangeIndexing is possible as tuple[startIndex:endingIndex] (negativeIndexing also possible)
+        Immutable:values cannot update or change
+        Duplicates allow
+        any datatypes
+        Mix of diffrent Datatypes
+
+    3. Set {}:Used to store multiple items in a variable.
+        unordered: order not fixed every time you print set, elements can change their place
+        set_name.update(list) :add list to set
+        set_name.add(value)
+        set_name.remove(value):if value not exist give eror
+        set_name.discord(value) :if value not exist also run
+        set1.union(set2)
+        set1.intersection(set2)
+        set1.intersection_update(set2)
+        set1.symmetric_difference(set2)
+
+        Unindexed: becoz of unorderd
+        Immutable: cannot update values but can add and remove 
+        duplicates not allowed
+        any datatypes
+        mix of different datatypes is allowed
+    4. Dictionary:store Key pairs
+        creating Dictionary: {
+                                "name":"bhupendra",
+                                "class":"MCA"
+                             }
+         Ordered :in fixed orderd
+         changeable :can be changed
+         Unindexed :
+         duplicated not allowed : keys can not duplicate, but value can
+         Any Datatyps:
 
 
 
@@ -61,7 +96,7 @@ Control Flow
     continue
 
 Loops
-    For i in range():   "range() used three parametrs(startPoint,StopPoint,StepIncrement/decrement)"
+    For i in range()/set/tuple/list:   "range() used three parametrs(startPoint,StopPoint,StepIncrement/decrement)"
         print()
     
     while condition:
