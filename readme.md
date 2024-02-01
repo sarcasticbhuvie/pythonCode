@@ -72,8 +72,6 @@ Python collection: use to store collection of items
          Any Datatyps:
 
 
-
-
 ========================================================================================
 Data Types:
     Number
