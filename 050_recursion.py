@@ -44,15 +44,15 @@
 # m =int(input("Enter power :"))
 # print(f"{n} power raised to {m} : {a_raised_to_power_b(n,m)}")
 
-# ##############################
-#  print fibonacci series:
-def print_fibonacci(n):
-    if n==0:
-        return 0
-    elif n==1:
-        return 1
-    else:
-        return print_fibonacci(n-1)+print_fibonacci(n-2)
-n=int(input("Enter the length of fibonacci series :"))
-for i in range(n):
-    print(print_fibonacci(i))
+# # ##############################
+# #  print fibonacci series:
+# def print_fibonacci(n):
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return 1
+#     else:
+#         return print_fibonacci(n-1)+print_fibonacci(n-2)
+# n=int(input("Enter the length of fibonacci series :"))
+# for i in range(n):
+#     print(print_fibonacci(i))
