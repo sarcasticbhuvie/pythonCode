@@ -65,13 +65,3 @@
 #     return fact
 # n =int(input("Enter number to get factorial :"))
 # print(factorial(n))
-# # factorial of a number: using recursion
-# def factorial(n):
-#     if n==1 or n==0:
-#         return 1
-#     else:  
-#         fact=n*factorial(n-1)
-#         return fact
-
-# n =int(input("Enter number to get factorial :"))
-# print(factorial(n))
