@@ -70,8 +70,36 @@ Python collection: use to store collection of items
          Unindexed :
          duplicated not allowed : keys can not duplicate, but value can
          Any Datatyps:
+Function:
+    -   def function_name(parameters):
+            statement
+    -Types of arguments
+        1-Default argument:
+            def showValue(value="default_value"):
+                print(value)
+            showValue() :if we not pass any argument it print default_value
+            showValue(54) 
+        2-keyword argument(named arguments):
+            def add(n1,n2):
+                print("n1:",n1)
+                print("n2:",n2)
+                sum=n1+n2
+                return sum
+            n1=45
+            n2=76
+            keyword argument
+            print(add(n2=45,n1=67))
+        3-positional arguments:
+            positional argument 
+            print(add(n2,n1))
+        4-arbitary arguments(variable-length arguments *args and **kwargs) :arguments treate as a *args:tuples / **kwargs:dictionary
+    inner_function
+    outer_function
 
-
+    Pass by value: for immutable objects -string,integers,float,tuple
+        pass copy of actual object to the function and changes value assigned in local variable in function. actual object value outside the function does not effect.
+    Pass by reference: for mutable objects - list, dictionary : reference of the actual object is passed to the function .
+        changed inside function effects the actual(original) objects.
 ========================================================================================
 Data Types:
     Number
