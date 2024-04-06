@@ -1,6 +1,6 @@
-# def number():
-#     numeric_value=int(input("Enter the number :"))
-#     return numeric_value
+def number():
+    numeric_value=int(input("Enter the number :"))
+    return numeric_value
 # # ControlStatement: they allow us to control the flow of our program
 # # if-else: Given num is even or odd
 # num = int(input("Enter Number :"))
@@ -122,24 +122,24 @@
 #         print(chr(j),end=" ")
 #     i+=1
 #     print("\n")
-# # ========================================
-# # pattern for diamond if input is 4 then
-# #    1   
-# #   123
-# #  12345 
-# # 1234567
-# row=number()
-# for i in range(1,row+1):
-#     print(" "*(row-i),end="")
-#     for j in range(1,2*i):
-#         print(j,end="")
-#     print(" "*(row-i),end="")
-#     print("\n")
-# # =================================
-# i=1
-# while i<row+1:
-#     for j in range(65,65+i):
-#         print(chr(j),end="")
-#     i+=1
-#     print("\n")    
+# ========================================
+# pattern for diamond if input is 4 then
+#    1   
+#   123
+#  12345 
+# 1234567
+row=number()
+for i in range(1,row+1):
+    print(" "*(row-i),end="")
+    for j in range(1,2*i):
+        print(j,end="")
+    print(" "*(row-i),end="")
+    print("\n")
+# =================================
+i=1
+while i<row+1:
+    for j in range(65,65+i):
+        print(chr(j),end="")
+    i+=1
+    print("\n")    
         
